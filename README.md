@@ -1,16 +1,93 @@
-# React + Vite
+# To-Do List Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Task Information
 
-Currently, two official plugins are available:
+**Repository Name:** SCT_WD_4  
+**Track:** Web Development Internship  
+**Task:** Build a To-Do List Web Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Project Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a **To-Do List Web Application built using React**.  
+It allows users to create and manage tasks efficiently by adding, editing, deleting, and marking tasks as completed.
 
-## Expanding the ESLint configuration
+Users can also set **date and time deadlines**, reorder tasks based on priority, and keep track of their daily activities through a simple and interactive interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application dynamically updates tasks without reloading the page, making task management smooth and user-friendly.
+
+---
+
+## ✨ Features
+
+* **Add Tasks** – Users can add new tasks to their to-do list  
+* **Edit Tasks** – Modify existing tasks easily  
+* **Delete Tasks** – Remove tasks from the list  
+* **Mark as Completed** – Track finished tasks with a completion indicator  
+* **Set Date & Time** – Assign deadlines to tasks  
+* **Reorder Tasks** – Change task priority using up/down controls  
+* **Dynamic Updates** – Tasks update instantly without refreshing the page  
+* **Responsive Interface** – Clean and aesthetic UI design
+
+---
+
+## 🛠 Technologies Used
+
+* **React.js**
+* **JavaScript**
+* **CSS**
+* **HTML**
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/samridhi78B/SC_WD_4.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash
+cd SCT_WD_4
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the application
+
+```bash
+npm start
+```
+
+The app will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📸 Project Screenshot
+
+![ToDo App UI](src/todo.png)
+
+---
+
+## 📬 Author
+
+**Samridhi**  
+Web Development Intern
+
+---
+
+## 📄 License
+
+This project is created for internship task submission purposes.
